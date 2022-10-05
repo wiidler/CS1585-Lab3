@@ -1,0 +1,7 @@
+Will Weidler
+
+PROBLEM 1:
+
+	1. Lists all visable files in the navigated directory
+	2. Lists all visable and hidden files in the current and previous directories separated by name
+	3. This command will delete all files and directories without being able to recover them.
