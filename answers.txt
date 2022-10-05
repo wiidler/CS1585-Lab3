@@ -12,3 +12,11 @@ PROBLEM 2:
 	2. use "cat -n (filename)"
 	3. "whatis" searches the manual page names and displays the manual page descriptions of any name
        matched.
+
+PROBLEM 3:
+	
+	1. apple
+	2. banana - ">" writes in the file, overwriting anything already inside if the file already exists.
+	3. banana
+	   carrot - ">>" makes a new line and writes more into the file, saving what already exists, rather than overwriting like ">" does.
+	4.       1       7      14 - "|" allows the user to use another function in tandem with the same input without making a new line.
