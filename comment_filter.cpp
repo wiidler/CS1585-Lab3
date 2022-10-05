@@ -1,14 +1,20 @@
-#include<iostream>
-#include<string>
+#include <iostream>
+#include <string>
 
+using std::cin;
 using std::cout;
 using std::endl;
-using std::cin;
 
-int main() 
+int main()
 {
-    // Write your program here.
-
+    std::string buffer;
+    char match = '#';
+    while (getline(cin, buffer))
+    {
+        if (buffer[0] != match)
+        {
+            cout << buffer << endl;
+        }
+    }
     return 0;
 }
-
